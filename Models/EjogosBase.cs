@@ -20,7 +20,7 @@
             }
 
             //se não existir arquivo na pasta, ele é criado
-            if (!File.Exists(file))
+            if (!File.Exists(path))
             {
                 File.Create(path);
             }
